@@ -1,0 +1,13 @@
+<?xml  version="1.0" encoding="utf-8" ?>
+<buttons format="1" version="1">
+	<button id="webgui/{6f154641-ad4f-427d-922a-1138c0b94f43}" type="dynamic">
+		<icon name="{6f154641-ad4f-427d-922a-1138c0b94f43}/Layer 0" src="pbz"/>
+		<label>WebGUI</label>
+		<tooltip>Upload your photos to WebGUI</tooltip>		
+		<action verb="trayexec">
+			<param  name="exe_name" value="WebGUIUpload.exe"/>
+			<param  name="exe_path_regkey" value="HKEY_LOCAL_MACHINE\SOFTWARE\PlainBlack\WebGUIPhoto\"/>					
+			<param name="export" value="1"/>			
+		</action>
+	</button>
+</buttons>
